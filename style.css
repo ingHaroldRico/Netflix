@@ -1,0 +1,62 @@
+body{
+    background-color: rgb(27, 27, 27);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    flex-direction: column;
+    margin: 80px;
+    padding: 20px;
+
+}
+h2{
+    color: white;
+}
+img{
+    width: 90px;
+    height: 90px;
+    margin: 8px;
+    border-radius: 5px;
+   
+}
+.icono{
+    
+    display:flex;
+    justify-content: left;
+    align-items: start;
+   
+}
+
+button{
+    background-color: rgb(16, 16, 16);
+
+    border:solid 1px white;
+    color:white;
+    padding: 10px;
+    min-width: 200px;
+    margin-top: 30px;
+}
+.perfiles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+span{
+    color: white;
+    
+}
